@@ -1,0 +1,30 @@
+2025-08-15 20:29:06,553 INFO o.a.j.u.JMeterUtils: Setting Locale to es_419
+2025-08-15 20:29:06,581 INFO o.a.j.u.JMeterUtils: Could not find resources for 'es_419', using 'es'
+2025-08-15 20:29:06,582 INFO o.a.j.JMeter: Loading user properties from: /Users/williamtaque/Developer/tools/apache-jmeter-5.6.3/bin/user.properties
+2025-08-15 20:29:06,582 INFO o.a.j.JMeter: Loading system properties from: /Users/williamtaque/Developer/tools/apache-jmeter-5.6.3/bin/system.properties
+2025-08-15 20:29:06,590 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-08-15 20:29:06,590 INFO o.a.j.JMeter: Version 5.6.3
+2025-08-15 20:29:06,590 INFO o.a.j.JMeter: java.version=23.0.1
+2025-08-15 20:29:06,590 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2025-08-15 20:29:06,591 INFO o.a.j.JMeter: os.name=Mac OS X
+2025-08-15 20:29:06,591 INFO o.a.j.JMeter: os.arch=x86_64
+2025-08-15 20:29:06,591 INFO o.a.j.JMeter: os.version=13.7.7
+2025-08-15 20:29:06,591 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-08-15 20:29:06,591 INFO o.a.j.JMeter: java.awt.headless=true
+2025-08-15 20:29:06,591 INFO o.a.j.JMeter: Max memory     =2147483648
+2025-08-15 20:29:06,591 INFO o.a.j.JMeter: Available Processors =4
+2025-08-15 20:29:06,607 INFO o.a.j.JMeter: Default Locale=español (Latinoamérica)
+2025-08-15 20:29:06,607 INFO o.a.j.JMeter: JMeter  Locale=español (Latinoamérica)
+2025-08-15 20:29:06,607 INFO o.a.j.JMeter: JMeterHome=/Users/williamtaque/Developer/tools/apache-jmeter-5.6.3
+2025-08-15 20:29:06,607 INFO o.a.j.JMeter: user.dir  =/Users/williamtaque/QA_Prueba_Tecnica/JMeter_Validacion
+2025-08-15 20:29:06,607 INFO o.a.j.JMeter: PWD       =/Users/williamtaque/QA_Prueba_Tecnica/JMeter_Validacion
+2025-08-15 20:29:06,609 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: MacBook-Pro-de-William.local FullName: localhost
+2025-08-15 20:29:06,625 ERROR o.a.j.JMeter: An error occurred: 
+java.lang.IllegalArgumentException: Cannot write to '/Users/williamtaque/QA_Prueba_Tecnica/JMeter_Validacion/reporte-html' as folder is not empty
+	at org.apache.jorphan.util.JOrphanUtils.canSafelyWriteToFolder(JOrphanUtils.java:664) ~[jorphan.jar:5.6.3]
+	at org.apache.jorphan.util.JOrphanUtils.canSafelyWriteToFolder(JOrphanUtils.java:620) ~[jorphan.jar:5.6.3]
+	at org.apache.jmeter.JMeter.extractAndSetReportOutputFolder(JMeter.java:542) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:492) [ApacheJMeter_core.jar:5.6.3]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) [ApacheJMeter.jar:5.6.3]
